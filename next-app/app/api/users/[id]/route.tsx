@@ -13,7 +13,7 @@ export function GET(
 // put- replacing a object
 // patch - updating one or more properties
 
-export function PUT(
+export async function PUT(
   request: NextRequest,
   { params }: { params: { id: number } }
 ) {
@@ -23,4 +23,14 @@ export function PUT(
   // if doesnt exist, return 404
   // update the user
   // return the updated user
+
+  const body = await request.json();
+
+  if (!body.name)
+    return NextResponse.json({ error: "Name is required" }, { status: 400 });
+
+  if (params.id > 10)
+    return NextResponse.json({ error: "User not found " }, { status: 404 });
+
+  return NextResponse.json({ id: 1, name: body.name });
 }
