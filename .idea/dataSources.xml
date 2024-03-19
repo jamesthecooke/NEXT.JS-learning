@@ -9,6 +9,9 @@
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
     <data-source source="LOCAL" name="nextapp@localhost" uuid="3479e2a7-3e57-4473-879e-286b131e5744">
+
+    <data-source source="LOCAL" name="nextapp@localhost" uuid="c7c66336-9db8-4b43-b77c-17417eac2f65">
+
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
