@@ -1004,7 +1004,7 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
     </schema>
     <schema id="290" parent="1" name="nextapp">
       <Current>1</Current>
-      <LastIntrospectionLocalTimestamp>2024-03-19.16:21:27</LastIntrospectionLocalTimestamp>
+      <LastIntrospectionLocalTimestamp>2024-03-19.16:52:54</LastIntrospectionLocalTimestamp>
       <CollationName>utf8mb4_unicode_ci</CollationName>
     </schema>
     <schema id="291" parent="1" name="performance_schema">

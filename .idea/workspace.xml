@@ -5,8 +5,48 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e6f2edb6-6fab-4d61-9282-9c59ed2136ef" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/next-app/app/api/products/route.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/next-app/app/api/products/route.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c5eaa92a-ee6c-4187-9018-96e7173ff424.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c5eaa92a-ee6c-4187-9018-96e7173ff424/storage_v2/_src_/schema/nextapp.TiYYbg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/next-app/.eslintrc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/next-app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/next-app/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/next-app/app/NavBar.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/next-app/app/admin/layout.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/next-app/app/admin/page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/next-app/app/api/products/[id]/route.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/next-app/app/api/products/route.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/next-app/app/api/users/[id]/route.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/next-app/app/api/users/route.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/next-app/app/components/AddToCart.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/next-app/app/components/ProductCard.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/next-app/app/components/ProductCard.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/next-app/app/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/next-app/app/globals.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/next-app/app/layout.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/next-app/app/not-found.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/next-app/app/page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/next-app/app/products/[[...slug]]/page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/next-app/app/users/UserTable.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/next-app/app/users/[id]/page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/next-app/app/users/[id]/photos/[photoId]/page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/next-app/app/users/loading.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/next-app/app/users/new/page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/next-app/app/users/page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/next-app/next.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/next-app/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/next-app/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/next-app/postcss.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/next-app/prisma/client.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/next-app/prisma/migrations/20240319131355_initial/migration.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/next-app/prisma/migrations/20240319132248_add_registed_at/migration.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/next-app/prisma/migrations/20240319162106_added_products_model/migration.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/next-app/prisma/migrations/migration_lock.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/next-app/prisma/schema.prisma" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/next-app/public/next.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/next-app/public/vercel.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/next-app/tailwind.config.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/next-app/tsconfig.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
