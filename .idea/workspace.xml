@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e6f2edb6-6fab-4d61-9282-9c59ed2136ef" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/next-app/prisma/schema.prisma" beforeDir="false" afterPath="$PROJECT_DIR$/next-app/prisma/schema.prisma" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next-app/app/api/products/route.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/next-app/app/api/products/route.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
