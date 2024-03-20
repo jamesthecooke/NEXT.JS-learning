@@ -1,13 +1,18 @@
 import { NextRequest, NextResponse } from "next/server";
+import prisma from "@/prisma/client";
 
-export function GET(
+export async function GET(
   request: NextRequest,
-  { params }: { params: { id: number } }
+  { params }: { params: { id: string } }
 ) {
-  if (params.id > 10)
-    return NextResponse.json({ error: "User not found" }, { status: 400 });
+  const product = await prisma.products.findUnique({
+    where: { id: parseInt(params.id) },
+  });
 
-  return NextResponse.json({ id: params.id, name: "chicken", price: 5 });
+  if (!product)
+    return NextResponse.json({ error: "Product not found" }, { status: 400 });
+
+  return NextResponse.json(product);
 }
 
 // put- replacing a object
@@ -15,7 +20,7 @@ export function GET(
 
 export async function PUT(
   request: NextRequest,
-  { params }: { params: { id: number } }
+  { params }: { params: { id: string } }
 ) {
   //  Validate the rewuest body
   // if invalid return 400
@@ -26,8 +31,12 @@ export async function PUT(
 
   const body = await request.json();
 
-  if (params.id > 10)
-    return NextResponse.json({ error: "User not found" }, { status: 404 });
+  const product = await prisma.products.findUnique({
+    where: { id: parseInt(params.id) },
+  });
+
+  if (!product)
+    return NextResponse.json({ error: "Product not found" }, { status: 404 });
 
   if (!body.name)
     return NextResponse.json({ error: " Name is required" }, { status: 400 });
@@ -35,15 +44,30 @@ export async function PUT(
   if (!body.price)
     return NextResponse.json({ error: " Price is required" }, { status: 400 });
 
-  return NextResponse.json({ id: 3, name: body.name, price: body.price });
+  const updatedProduct = await prisma.products.update({
+    where: { id: product.id },
+    data: {
+      name: body.name,
+      price: body.price,
+    },
+  });
+
+  return NextResponse.json(updatedProduct);
 }
 
-export function DELETE(
+export async function DELETE(
   request: NextRequest,
-  { params }: { params: { id: number } }
+  { params }: { params: { id: string } }
 ) {
-  if (params.id > 10)
-    return NextResponse.json({ error: "User not found" }, { status: 400 });
+  const product = await prisma.products.findUnique({
+    where: { id: parseInt(params.id) },
+  });
+  if (!product)
+    return NextResponse.json({ error: "Product not found" }, { status: 400 });
+
+  await prisma.products.delete({
+    where: { id: product.id },
+  });
 
   return NextResponse.json({});
 }

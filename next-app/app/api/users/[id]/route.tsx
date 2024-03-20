@@ -21,7 +21,7 @@ export async function PUT(
   request: NextRequest,
   { params }: { params: { id: string } }
 ) {
-  //  Validate the rewuest body
+  //  Validate the request body
   // if invalid return 400
   // fetch the user with the gieven id
   // if doesnt exist, return 404
