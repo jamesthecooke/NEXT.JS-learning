@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e6f2edb6-6fab-4d61-9282-9c59ed2136ef" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/82c336fd-9ba6-4c12-860d-facad14ce0ee.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/82c336fd-9ba6-4c12-860d-facad14ce0ee.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next-app/app/NavBar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/next-app/app/NavBar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next-app/app/api/auth/[...nextauth]/route.ts" beforeDir="false" afterPath="$PROJECT_DIR$/next-app/app/api/auth/[...nextauth]/route.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next-app/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/next-app/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next-app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/next-app/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/next-app/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next-app/prisma/schema.prisma" beforeDir="false" afterPath="$PROJECT_DIR$/next-app/prisma/schema.prisma" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2drt7cAP1jtBKMzoj3t2nKPwBrR" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenDatabaseViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/jamescooke&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql_aurora_aws&quot;
+    ]
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+</project>
